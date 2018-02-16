@@ -1,9 +1,9 @@
 {
-  "path": "/h1Text",
   "type": "Text",
+  "path": "/h1Text",
   "data": {
-    "html": "<p>My content</p>"
+    "text": "Simpla CMS"
   },
   "createdAt": "2017-04-05T17:20:17.440Z",
-  "updatedAt": "2017-04-06T09:31:47.499Z"
+  "updatedAt": "2018-02-16T13:28:29.242Z"
 }
