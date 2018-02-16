@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://unpkg.com/simpla@^3.0.0"></script>
+    <script src="https://unpkg.com/simpla@^3.0.0/adapters/netlify.js"></script>
+    <script src="https://unpkg.com/webcomponents.js@^0.7.24/webcomponents-lite.min.js" async></script>
+
+    <!-- Init Simpla -->
+    <script>
+        Simpla.init({
+
+            // The Github repo you want Simpla to use
+            repo: 'AndreyLadniy/simplajs_test',
+
+            // Netlify auth adapter, initialize with your Netlify site name
+            auth: new SimplaNetlify({ site: 'https://vibrant-bhaskara-5ad55d.netlify.com' }),
+
+            // Public content source (optional)
+            // Defaults to fetching directly from Github
+            // source: 'https://mysite.netlify.com'
+
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
